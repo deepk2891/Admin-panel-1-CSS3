@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* ROOT */
 :root {
+  --dark-gray: #334155;
+  --light-gray: #64748b;
+  --dark-blue: #4f46e5;
+  --light-blue: #0ea5e9;
+  --green: #10b981;
+  --red: #ff5724;
+  --orange: #ff9800;
   --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
   --transition05: all 0.5s linear;
