@@ -11,6 +11,7 @@
   --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
   --transition05: all 0.5s linear;
+  --border1: 1px solid #e5e7eb;
   --gutter-width: 12px;
 }
 * {
@@ -53,3 +54,48 @@ section {
 .col-12 {
   padding: 0 var(--gutter-width);
 }
+
+/* LEFT BAR STARTS HERE */
+.left-bar {
+  position: fixed;
+  left: 0;
+  width: 6.5rem;
+  height: 100vh;
+  border: var(--border1);
+}
+.main-logo img {
+  height: 3.7rem;
+  width: 3.7rem;
+  transition: var(--transition03);
+  margin-top: 1.5rem;
+}
+.main-logo img:hover {
+  transform: rotate(360deg);
+}
+.left-bar ul li svg {
+  margin: auto;
+  display: block;
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--light-gray);
+}
+.left-bar ul li {
+  margin: 1.5rem 0;
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.6rem;
+}
+.rounded-full {
+  border-radius: 50%;
+  width: 4rem;
+  margin: 1rem 0;
+}
+.profile-avatar i {
+  font-size: 0.9rem;
+  position: absolute;
+  top: 0.2rem;
+  right: 0rem;
+  color: var(--green);
+  border-radius: 50%;
+  border: 0.15rem solid white;
+}
+/* LEFT BAR ENDS HERE */
