@@ -59,13 +59,16 @@ section {
 .left-bar {
   position: fixed;
   left: 0;
-  width: 6.5rem;
+  width: 8rem;
   height: 100vh;
   border: var(--border1);
 }
+.main-logo {
+  margin-bottom: 2rem;
+}
 .main-logo img {
-  height: 3.7rem;
-  width: 3.7rem;
+  height: 4.5rem;
+  width: 4.5rem;
   transition: var(--transition03);
   margin-top: 1.5rem;
 }
@@ -75,18 +78,19 @@ section {
 .left-bar ul li svg {
   margin: auto;
   display: block;
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 3.2rem;
+  width: 3.2rem;
   color: var(--light-gray);
 }
 .left-bar ul li {
   margin: 1.5rem 0;
-  padding: 0.5rem 0.3rem;
-  border-radius: 0.6rem;
+  padding: 0.6rem 0.3rem;
+  border-radius: 1rem;
+  border: var(--border1);
 }
 .rounded-full {
   border-radius: 50%;
-  width: 4rem;
+  width: 4.5rem;
   margin: 1rem 0;
 }
 .profile-avatar i {
