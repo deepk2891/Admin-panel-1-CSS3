@@ -65,6 +65,7 @@ section {
   width: 8rem;
   height: 100vh;
   border: var(--border1);
+  transition: var(--transition02);
 }
 .main-logo {
   margin-bottom: 2rem;

@@ -168,6 +168,9 @@
     max-width: 720px;
     margin: 0 auto;
   }
+  .left-bar {
+    transform: translateX(-8rem);
+  }
 }
 
 @media (max-width: 576px) {
