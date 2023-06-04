@@ -126,10 +126,9 @@ section {
   border: 0.15rem solid white;
 }
 .profile-setting {
-  position: absolute;
-  z-index: 100;
-  top: -39rem;
-  left: 5.5rem;
+  left: 7rem;
+  position: fixed;
+  bottom: 1rem;
   width: 26rem;
   border: var(--border1);
   background-color: var(--white);

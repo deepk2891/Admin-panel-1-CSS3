@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
     $('.accordion').click(function () {
         $(this).toggleClass('active');
-        $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
+        $(this).find('i').toggleClass('fa-angle-down fa-angle-right');
         $(this).find('ul').slideToggle();
     });
     $('.toggle-menu').click(function () {
