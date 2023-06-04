@@ -265,3 +265,54 @@ aside {
   margin-left: 2rem;
 }
 /* ASIDE BAR ENDS HERE */
+/* HEADER STARTS HERE */
+.move-header {
+  margin-left: 8rem;
+}
+.move-aside {
+  margin-left: -31rem;
+}
+header {
+  margin-left: 31rem;
+  height: 5rem;
+  background-color: var(--bg-blue);
+  transition: var(--transition03);
+}
+.toggle-menu {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.4rem 0 0 0;
+}
+.menu-icon {
+  width: 15px;
+  height: 10px;
+  position: relative;
+}
+.menu-icon span {
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--dark-blue);
+  transition: transform 0.3s ease;
+}
+.menu-icon span:first-child {
+  top: 0;
+}
+.menu-icon span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu-icon span:last-child {
+  bottom: 0;
+}
+.menu-icon.active span:first-child {
+  transform: rotate(135deg) translate(2px, -8.5px)
+}
+.menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-icon.active span:last-child {
+  transform: rotate(225deg) translate(2px, 7.5px);
+}
+/* HEADER ENDS HERE */

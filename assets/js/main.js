@@ -8,4 +8,12 @@ $(document).ready(function () {
         $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
         $(this).find('ul').slideToggle();
     });
+    $('.toggle-menu').click(function () {
+        $(this).find('.menu-icon').toggleClass('active');
+    });
+    $('.toggle-menu').click(function () {
+        $(this).toggleClass('active');
+        $('header').toggleClass('move-header');
+        $('aside').toggleClass('move-aside');
+    });
 });
