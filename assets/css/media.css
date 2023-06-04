@@ -134,6 +134,12 @@
   .move-header {
     margin-left: 7rem;
   }
+  aside {
+    margin-left: 7rem;
+  }
+  header {
+    margin-left: 30rem;
+  }
 }
 
 @media (max-width: 768px) {

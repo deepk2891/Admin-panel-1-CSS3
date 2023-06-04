@@ -69,6 +69,12 @@ section {
   border-right: var(--border1);
   background-color: var(--white);
   transition: var(--transition02);
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark-text) var(--white);
+}
+.left-bar::-webkit-scrollbar {
+  display: none;
 }
 .main-logo {
   margin-bottom: 2rem;
