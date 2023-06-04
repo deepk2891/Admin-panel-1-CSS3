@@ -66,7 +66,8 @@ section {
   left: 0;
   width: 8rem;
   height: 100vh;
-  border: var(--border1);
+  border-right: var(--border1);
+  background-color: var(--white);
   transition: var(--transition02);
 }
 .main-logo {
