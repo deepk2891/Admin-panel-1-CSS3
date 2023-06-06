@@ -16,4 +16,7 @@ $(document).ready(function () {
         $('header').toggleClass('move-header');
         $('aside').toggleClass('move-aside');
     });
+    $('.right-bar-control').click(function () {
+        $('.right-bar').toggleClass('rightbar-margin-r0');
+    });
 });

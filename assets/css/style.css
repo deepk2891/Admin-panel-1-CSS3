@@ -339,3 +339,148 @@ header {
   width: 2.5rem;
 }
 /* HEADER ENDS HERE */
+
+/* RIGHT BAR STARTS HERE */
+.right-bar {
+  position: fixed;
+  z-index: 200;
+  right: 0;
+  top: 0;
+  width: 32rem;
+  height: 100vh;
+  padding: 1.2rem 1.2rem;
+  background-color: var(--white);
+  transition: var(--transition03);
+  border: var(--border1);
+  margin-right: -32rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightmode-darktext);
+}
+.left-slide-bar::-webkit-scrollbar {
+  display: none;
+}
+.rightbar-margin-r0 {
+  margin-right: 0rem;
+}
+.right-bar .calender {
+  padding: 0rem 1.2rem 1.2rem 1.2rem;
+}
+.right-bar .calender span {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  color: var(--light-gray);
+}
+.right-bar .calender i {
+  color: var(--light-gray);
+  font-size: 1.5rem;
+}
+.b-heading {
+  padding: 0.75rem;
+  letter-spacing: .025em;
+}
+.banking-cards {
+  overflow-x: visible;
+}
+.bank-card {
+  height: 11.2rem;
+  width: 19.2rem;
+  border: var(--border1);
+  border-radius: 1.5rem;
+  color: var(--white);
+  padding: 1.2rem;
+  overflow: hidden;
+}
+#bank-card1 {
+  background-color: #a855f7;
+}
+#bank-card2 {
+  background-color: #f43f5e;
+}
+#bank-card3 {
+  background-color: #0ea5e9;
+}
+.bank-card #box1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(9px, -9px);
+  background-color: hsla(0, 0%, 100%, .2);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 20% 80% 81% 19% / 47% 49% 51% 53%;
+}
+.bank-card #box2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(12px, 12px) rotateZ(36deg);
+  background-color: hsla(0, 0%, 100%, .2);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 17% 83% 22% 78% / 82% 17% 83% 18%;
+}
+.bank-card #box3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(17px, 28px) rotateZ(72deg);
+  background-color: hsla(0, 0%, 100%, .2);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 0% 100% 43% 57% / 0% 54% 46% 100%;
+}
+.bank-card img {
+  height: 1.2rem;
+  width: 4rem;
+}
+.bank-card .price {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  padding: 3rem 0 0 0;
+}
+.bank-card .num {
+  padding-top: 0.7rem;
+  font-size: 1.2rem;
+}
+.app-heading {
+  padding: 1.2rem 0 0.75rem 0;
+  letter-spacing: .025em;
+}
+.pinned-apps ul {
+  column-count: 5;
+}
+.pinned-apps ul li a i {
+  font-size: 2.5rem;
+  padding: 1rem 1.3rem;
+  border-radius: 1.5rem;
+}
+.pinned-apps ul li {
+  text-align: center;
+}
+.pinned-apps ul li p {
+  padding-top: 0.4rem;
+  font-size: 1.3rem;
+}
+/* border-radius: 1.5rem; */
+#app1 {
+  color: white;
+  background-color: var(--fix-green);
+}
+#app2 {
+  color: white;
+  background-color: var(--fix-orange);
+}
+#app3 {
+  color: white;
+  background-color: var(--fix-lightblue);
+}
+#app4 {
+  color: white;
+  background-color: var(--fix-red);
+}
+#app5 {
+  color: white;
+  background-color: #f000b9;
+}
+/* RIGHT BAR ENDS HERE */
