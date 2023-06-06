@@ -483,4 +483,62 @@ header {
   color: white;
   background-color: #f000b9;
 }
+.working-hours {
+  padding: 2rem 0;
+}
+.working-hours .col-50 {
+  padding: 0 0.5rem 0 0;
+}
+.working-hours .hour {
+  background-color: #e9eef5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.working-hours .hour .data1 span {
+  font-size: 1.8rem;
+  color: var(--lightmode-lighttext);
+}
+.working-hours .hour .data1 small {
+  font-size: 1.2rem;
+  color: var(--lightmode-lighttext);
+}
+.working-hours .hour .data1 i {
+  font-size: 1.5rem;
+  color: #f000b9;
+}
+.working-hours .hour p {
+  font-size: 1.1rem;
+  color: var(--lightmode-darktext);
+  padding: 1rem 0;
+}
+.working-hours .hour .data2 {
+  font-size: 1.2rem;
+  color: var(--lightmode-lighttext);
+}
+.progress-bar-wrap {
+  height: 0.7rem;
+  width: 100%;
+}
+.progress-bar {
+  width: 70%;
+  height: 0.7rem;
+}
+.progress-bar-wrap {
+  height: 0.7rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0.5rem 0 1rem 0;
+}
+#progress-bar1 {
+  background-color: #f000b9;
+}
+#progress-bar-wrap1 {
+  background-color: #f000b926;
+}
+#progress-bar2 {
+  background-color: #10b981;
+}
+#progress-bar-wrap2 {
+  background-color: #10b98126;
+}
 /* RIGHT BAR ENDS HERE */

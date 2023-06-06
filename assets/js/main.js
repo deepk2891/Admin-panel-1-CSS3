@@ -4,7 +4,6 @@ $(document).ready(function () {
         $('.profile-setting').toggle();
     });
     $('.accordion').click(function () {
-        $(this).toggleClass('active');
         $(this).find('i').toggleClass('fa-angle-down fa-angle-right');
         $(this).find('ul').slideToggle();
     });
