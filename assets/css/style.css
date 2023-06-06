@@ -2,22 +2,28 @@
 /* ROOT */
 :root {
   --white: white;
-  --dark-gray: #334155;
-  --light-gray: #64748b;
-  --dark-text: #1E293B;
-  --light-text: #475569;
-  --gray: #94A3B8;
-  --dark-blue: #4f46e5;
-  --glass-blue: #4F46E51A;
-  --bg-blue: #F1F5F9;
-  --light-blue: #0ea5e9;
-  --green: #10b981;
-  --red: #ff5724;
-  --orange: #ff9800;
+
+  --lightmode-lighttext: #475569;
+  --lightmode-medtext: #1e293b;
+  --lightmode-darktext: #334155;
+  --lighmode-ultralighttext: #94A3B8;
+
+  --fix-green: #10b981;
+  --fix-red: #ff5724;
+  --fix-orange: #ff9800;
+  --fix-darkblue: #4f46e5;
+  --fix-lightblue: #0ea5e9;
+  --fix-bgblue: #F1F5F9;
+
+  --darkmode-lighttext: #c2c9d6;
+  --darkmode-darktext: #a3adc2;
+
   --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
   --transition05: all 0.5s linear;
+
   --border1: 1px solid #e5e7eb;
+
   --gutter-width: 12px;
 }
 * {
@@ -71,7 +77,7 @@ section {
   transition: var(--transition02);
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: var(--dark-text) var(--white);
+  scrollbar-color: var(--lightmode-darktext) var(--white);
 }
 .left-bar::-webkit-scrollbar {
   display: none;
@@ -94,7 +100,7 @@ section {
   display: block;
   height: 3.2rem;
   width: 3.2rem;
-  color: var(--light-gray);
+  color: var(--lightmode-lighttext);
   cursor: pointer;
   transition: var(--transition03);
 }
@@ -108,7 +114,7 @@ section {
   background-color: #4F46E51A;
 }
 .left-bar ul li:hover svg {
-  color: var(--dark-blue);
+  color: var(--fix-darkblue);
 }
 .rounded-full {
   border-radius: 50%;
@@ -121,7 +127,7 @@ section {
   position: absolute;
   top: 0.2rem;
   right: 0rem;
-  color: var(--green);
+  color: var(--fix-green);
   border-radius: 50%;
   border: 0.15rem solid white;
 }
@@ -138,7 +144,7 @@ section {
 .profile-setting .title {
   padding: 1.2rem 2rem;
   border-radius: 1rem;
-  background-color: var(--bg-blue);
+  background-color: var(--fix-bgblue);
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -149,11 +155,11 @@ section {
 }
 .profile-setting .title span {
   font-size: 1.7rem;
-  color: var(--dark-gray);
+  color: var(--lightmode-darktext);
 }
 .profile-setting .title span p {
   font-size: 1.2rem;
-  color: var(--light-gray);
+  color: var(--lightmode-darktext);
   padding-top: 0.3rem;
 }
 .profile-setting .desc {
@@ -163,25 +169,25 @@ section {
   cursor: pointer;
 }
 .profile-setting .desc:hover {
-  background-color: var(--bg-blue);
+  background-color: var(--fix-bgblue);
 }
 .profile-setting .desc i {
   padding: 1rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--fix-orange);
   margin-right: 1.8rem;
   margin-left: 1rem;
 }
 .profile-setting .desc span {
   font-size: 1.4rem;
-  color: var(--dark-gray);
+  color: var(--lightmode-darktext);
 }
 .profile-setting .desc span p {
   font-size: 1.3rem;
   padding-top: 0.3rem;
-  color: var(--gray);
+  color: var(--lighmode-ultralighttext);
 }
 .profile-setting .login-btn {
   padding: 1.2rem 0;
@@ -191,7 +197,7 @@ section {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  background-color: var(--dark-blue);
+  background-color: var(--fix-darkblue);
   color: var(--white);
   border: none;
   border-radius: 4px;
@@ -202,16 +208,16 @@ section {
   padding-right: 1rem;
 }
 .desc:nth-child(3) > i {
-  background-color: var(--light-blue);
+  background-color: var(--fix-lightblue);
 }
 .desc:nth-child(4) > i {
   background-color: #F000B9;
 }
 .desc:nth-child(5) > i {
-  background-color: #FF5724;
+  background-color: var(--fix-orange);
 }
 .desc:nth-child(6) > i {
-  background-color: var(--green);
+  background-color: var(--fix-green);
 }
 /* LEFT BAR ENDS HERE */
 /* ASIDE BAR STARTS HERE */
@@ -230,7 +236,7 @@ aside {
   padding: 1.5rem 1.5rem 3.3rem 1.5rem;
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: var(--dark-text) var(--white);
+  scrollbar-color: var(--lightmode-darktext);
 }
 .left-slide-bar::-webkit-scrollbar {
   display: none;
@@ -239,7 +245,7 @@ aside {
   padding: 2rem 0px 2rem 1.5rem;
 }
 .aside-title p {
-  color: var(--dark-text);
+  color: var(--lightmode-darktext);
   font-size: 1.7rem;
 }
 .left-slide-bar ul li {
@@ -253,11 +259,11 @@ aside {
   float: right;
 }
 .left-slide-bar ul li:nth-child(1) span {
-  color: var(--light-text);
+  color: var(--lightmode-lighttext);
   font-size: 1.35rem;
 }
 .left-slide-bar ul li:nth-child(2) span {
-  color: var(--dark-blue);
+  color: var(--fix-darkblue);
   font-size: 1.35rem;
   border-bottom: var(--border1);
   padding-bottom: 1rem;
@@ -283,7 +289,7 @@ header {
   top: 0;
   margin-left: 31rem;
   height: 5rem;
-  background-color: var(--bg-blue);
+  background-color: var(--fix-bgblue);
   transition: var(--transition03);
   padding: 0 2.5rem;
 }
@@ -305,7 +311,7 @@ header {
   display: inline-block;
   height: 2px;
   width: 100%;
-  background-color: var(--dark-blue);
+  background-color: var(--fix-darkblue);
   transition: transform 0.3s ease;
 }
 .menu-icon span:first-child {
@@ -328,8 +334,7 @@ header {
   transform: rotate(225deg) translate(2px, 7.5px);
 }
 .menu a svg {
-  color: var(--light-gray);
-  background-color: var(--);
+  color: var(--lightmode-lighttext);
   height: 2.5rem;
   width: 2.5rem;
 }
