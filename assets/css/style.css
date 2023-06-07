@@ -70,6 +70,7 @@ section {
 .left-bar {
   position: fixed;
   left: 0;
+  z-index: 11;
   width: 8rem;
   height: 100vh;
   border-right: var(--border1);
@@ -223,7 +224,7 @@ section {
 /* ASIDE BAR STARTS HERE */
 aside {
   position: fixed;
-  z-index: -100;
+  z-index: 10;
   height: 100vh;
   margin-left: 8rem;
   width: 23rem;
