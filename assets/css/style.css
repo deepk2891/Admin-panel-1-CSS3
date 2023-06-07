@@ -72,7 +72,7 @@ section {
   left: 0;
   z-index: 11;
   width: 8rem;
-  height: 100vh;
+  height: 100%;
   border-right: var(--border1);
   background-color: var(--white);
   transition: var(--transition02);
@@ -225,27 +225,34 @@ section {
 aside {
   position: fixed;
   z-index: 10;
-  height: 100vh;
+  height: 100%;
   margin-left: 8rem;
   width: 23rem;
   border: var(--border1);
   background-color: var(--white);
-  transition: var(--transition03);
+  transition: all 0.1s linear;
+  overflow-y: scroll;
+}
+aside:hover aside::-webkit-scrollbar {
+  visibility: visible;
+}
+aside::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 1rem;
+  visibility: hidden;
+}
+aside::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+aside::-webkit-scrollbar-thumb {
+  background-color: #dbdbdb;
+  border-radius: 1rem;
 }
 .left-slide-bar {
-  height: 100vh;
   padding: 1.5rem 1.5rem 3.3rem 1.5rem;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: var(--lightmode-darktext);
 }
-.left-slide-bar::-webkit-scrollbar {
-  display: none;
-}
-.aside-title {
-  padding: 2rem 0px 2rem 1.5rem;
-}
-.aside-title p {
+aside p {
+  padding: 2rem 0 1.5rem 2rem;
   color: var(--lightmode-darktext);
   font-size: 1.7rem;
 }
@@ -290,9 +297,12 @@ header {
   top: 0;
   margin-left: 31rem;
   height: 5rem;
-  background-color: var(--fix-bgblue);
-  transition: var(--transition03);
+  transition: all 0.1s linear;
+  border-bottom: var(--border1);
   padding: 0 2.5rem;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 .toggle {
   margin-top: -0.7rem;
@@ -348,18 +358,28 @@ header {
   right: 0;
   top: 0;
   width: 31rem;
-  height: 100vh;
+  height: 100%;
   padding: 1.2rem 1.2rem;
   background-color: var(--white);
-  transition: var(--transition03);
+  transition: all 0.1s linear;
   border: var(--border1);
   margin-right: -31rem;
   overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: var(--lightmode-darktext);
 }
-.left-slide-bar::-webkit-scrollbar {
-  display: none;
+.right-bar:hover aside::-webkit-scrollbar {
+  visibility: visible;
+}
+.right-bar::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 1rem;
+  visibility: hidden;
+}
+.right-bar::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+.right-bar::-webkit-scrollbar-thumb {
+  background-color: rgb(205, 205, 205);
+  border-radius: 1rem;
 }
 .rightbar-margin-r0 {
   margin-right: 0rem;
