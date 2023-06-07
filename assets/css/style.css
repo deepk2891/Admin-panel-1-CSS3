@@ -723,4 +723,22 @@ label {
 #progress-bar3 {
   background-color: var(--fix-lightblue);
 }
+.rightbar-navigation {
+  margin: 1rem auto;
+  border: var(--border1);
+  padding: 0.6rem 1.5rem;
+  border-radius: 6rem;
+}
+.rightbar-navigation i {
+  color: var(--lightmode-darktext);
+  font-size: 1.6rem;
+  margin: 0 0.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: var(--transition03);
+}
+.rightbar-navigation i:hover {
+  color: var(--fix-darkblue);
+  background-color: #f2f2f7;
+}
 /* RIGHT BAR ENDS HERE */
