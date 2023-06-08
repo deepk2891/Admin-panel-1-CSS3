@@ -198,6 +198,9 @@
   header {
     margin-left: 29rem;
   }
+  .menu ul li form {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -248,7 +251,11 @@
     margin-left: 6rem;
   }
   header {
-    margin-left: 29rem;
+    margin-left: 6rem;
+    padding: 0;
+  }
+  aside .aside-heading i {
+    display: block;
   }
 }
 

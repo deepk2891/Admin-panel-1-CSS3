@@ -9,6 +9,8 @@
   <link rel="shortcut icon" href="./assets/image/app-logo.svg" type="image/x-icon" />
   <link rel="stylesheet"
    href="https://unpkg.com/simplebar@latest/dist/simplebar.min.css" />
+  <!-- BOX ICON -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <!-- REMIX ICON -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
    rel="stylesheet" />
@@ -168,7 +170,10 @@
   <!-- LEFT BAR ENDS HERE -->
   <!-- ASIDE BAR STARTS HERE -->
   <aside>
-    <p class="f-weight5">Dashboards</p>
+    <div class="aside-heading d-flex justify-between align-center">
+      <p class="f-weight5">Dashboards</p>
+      <i class="toggle-menu fa-solid fa-angles-left"></i>
+    </div>
     <div class="left-slide-bar" data-simplebar>
       <ul class="boards">
         <li><span class="block f-weight5">CRM Analytics</span></li>
@@ -216,15 +221,23 @@
       </div>
     </div>
     <div class="menu">
-      <a class="right-bar-control" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg"
-         class="h-5.5 w-5.5 text-slate-500 dark:text-navy-100" fill="none"
-         viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-           d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z">
-          </path>
-        </svg>
-      </a>
+      <ul class="d-flex align-center flex-wrap">
+        <li>
+          <form action="">
+            <input type="search" placeholder="&#xF002; Search"
+             style="font-family:Arial, FontAwesome" />
+          </form>
+        </li>
+        <li><a href="#"><i style="color: #FBBF24;" class='ri-sun-fill'></i></a>
+        </li>
+        <li><a href="#"><i style="color:var(--fix-darkblue);"
+             class='bx bxs-palette'></i></a></li>
+        <li><a href="#"><i class="fa-regular fa-bell"></i></a>
+        </li>
+        <li><a class="setting right-bar-control" href="#">
+            <i class="fa-solid fa-gear"></i> </a>
+        </li>
+      </ul>
     </div>
   </header>
   <!-- HEADER ENDS HERE -->

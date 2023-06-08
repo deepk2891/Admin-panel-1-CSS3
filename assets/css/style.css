@@ -251,10 +251,20 @@ aside::-webkit-scrollbar-thumb {
 .left-slide-bar {
   padding: 1.5rem 1.5rem 3.3rem 1.5rem;
 }
-aside p {
+aside .aside-heading {
   padding: 2rem 0 1.5rem 2rem;
   color: var(--lightmode-darktext);
   font-size: 1.7rem;
+}
+aside .aside-heading i {
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  color: var(--fix-darkblue);
+  background-color: var(--fix-bgblue);
+  border: var(--border1);
+  display: none;
 }
 .left-slide-bar ul li {
   color: var(--light-text);
@@ -296,11 +306,11 @@ header {
   position: sticky;
   top: 0;
   margin-left: 31rem;
-  height: 5rem;
+  height: 6rem;
   transition: all 0.1s linear;
   border-bottom: var(--border1);
   padding: 0 2.5rem;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(234, 247, 253, 0.5);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
@@ -343,6 +353,38 @@ header {
 }
 .menu-icon.active span:last-child {
   transform: rotate(225deg) translate(2px, 7.5px);
+}
+.menu ul li {
+  color: var(--lightmode-lighttext);
+  font-size: 2.1rem;
+  padding: 0.5rem;
+  transition: all 0.1s linear;
+}
+.menu ul li a {
+  padding: 0.5rem;
+  border-radius: 40%;
+  color: var(--lightmode-darktext);
+}
+.menu ul li form input {
+  height: 3.2rem;
+  width: 24rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0 1.5rem;
+  background-color: #E9EEF5;
+  color: #1e293b;
+}
+.menu ul li:nth-child(5) {
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .menu a svg {
   color: var(--lightmode-lighttext);
