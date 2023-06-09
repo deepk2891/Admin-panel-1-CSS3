@@ -13,6 +13,7 @@ $(document).ready(function () {
     $('.toggle-menu').click(function () {
         $(this).toggleClass('active');
         $('header').toggleClass('move-header');
+        $('main').toggleClass('move-main');
         $('aside').toggleClass('move-aside');
     });
     $('.right-bar-control').click(function () {

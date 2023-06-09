@@ -302,6 +302,9 @@ aside .aside-heading i {
 .move-aside {
   margin-left: -31rem;
 }
+.move-main {
+  margin-left: 8rem;
+}
 header {
   position: sticky;
   top: 0;
@@ -805,3 +808,10 @@ label {
   background-color: #f2f2f7;
 }
 /* RIGHT BAR ENDS HERE */
+/* MAIN STARTS HERE */
+main {
+  margin-left: 31rem;
+  padding: 2rem;
+  background-color: var(--fix-bgblue);
+}
+/* MAIN ENDS HERE */

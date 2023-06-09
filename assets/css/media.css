@@ -134,10 +134,16 @@
   .move-header {
     margin-left: 7rem;
   }
+  .move-main {
+    margin-left: 7rem;
+  }
   aside {
     margin-left: 7rem;
   }
   header {
+    margin-left: 30rem;
+  }
+  main {
     margin-left: 30rem;
   }
 }
@@ -192,10 +198,16 @@
   .move-header {
     margin-left: 6rem;
   }
+  .move-main {
+    margin-left: 6rem;
+  }
   aside {
     margin-left: 6rem;
   }
   header {
+    margin-left: 29rem;
+  }
+  main {
     margin-left: 29rem;
   }
   .menu ul li form {
@@ -253,6 +265,9 @@
   header {
     margin-left: 6rem;
     padding: 0;
+  }
+  main {
+    margin-left: 6rem;
   }
   aside .aside-heading i {
     display: block;
