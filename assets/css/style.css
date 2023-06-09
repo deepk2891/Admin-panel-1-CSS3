@@ -262,7 +262,6 @@ aside .aside-heading i {
   border-radius: 1rem;
   font-size: 1.8rem;
   color: var(--fix-darkblue);
-  background-color: var(--fix-bgblue);
   border: var(--border1);
   display: none;
 }
@@ -326,36 +325,9 @@ header {
   margin-left: 1rem;
   padding: 0.4rem 0 0 0;
 }
-.menu-icon {
-  width: 15px;
-  height: 10px;
-  position: relative;
-}
-.menu-icon span {
-  display: inline-block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--fix-darkblue);
-  transition: transform 0.3s ease;
-}
-.menu-icon span:first-child {
-  top: 0;
-}
-.menu-icon span:nth-child(2) {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.menu-icon span:last-child {
-  bottom: 0;
-}
-.menu-icon.active span:first-child {
-  transform: rotate(135deg) translate(2px, -8.5px)
-}
-.menu-icon.active span:nth-child(2) {
-  opacity: 0;
-}
-.menu-icon.active span:last-child {
-  transform: rotate(225deg) translate(2px, 7.5px);
+.toggle-menu i {
+  font-size: 2.5rem;
+  color: var(--fix-darkblue);
 }
 .menu ul li {
   color: var(--lightmode-lighttext);
@@ -381,7 +353,7 @@ header {
 .ping {
   position: relative;
   top: -2.8rem;
-  right: -2.2rem;
+  right: -1.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -410,6 +382,10 @@ header {
     opacity: 0;
     transform: scale(2);
   }
+}
+.menu ul li:nth-child(4) {
+  padding-top: 1.2rem;
+
 }
 .menu ul li:nth-child(5) {
   animation: spin 3s linear infinite;
