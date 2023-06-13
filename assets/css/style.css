@@ -832,34 +832,149 @@ main section {
   background-color: var(--white);
   padding: 1.5rem;
 }
+.p0 {
+  padding: 0;
+}
 .order-section .box1 {
-  height: 43.8rem;
-  margin-right: 2.4rem;
-  margin-left: 0.2rem;
+  /* height: 43.8rem; */
+}
+.order-section .row .col-8 {
+  padding-left: 0;
+}
+.order-section .row .col-4 .row .col-12 {
+  padding-right: 0;
+}
+.order-section .row .col-4 .row .col-6 {
+  padding-right: 0;
+}
+.overview .ov1 p {
+  font-size: 1.5rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+  display: inline-block;
+}
+.overview .ov1 img {
+  display: inline-block;
+  height: 1.2rem;
+  margin-bottom: -0.2rem;
+  margin-left: 0.5rem;
+}
+.overview .ov2 button {
+  font-size: 1.2rem;
+  color: var(--lightmode-darktext);
+  background-color: var(--white);
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+}
+.overview .ov2 button:nth-child(2) {
+  color: var(--fix-darkblue);
+  background-color: #4f46e51A;
+  border-radius: 2rem;
+}
+.overview-card .card {
+  padding: 1.6rem;
+  background-color: var(--fix-bgblue);
+  border-radius: 1rem;
+}
+.overview-card .card .title {
+  font-size: 2rem;
+  color: var(--lightmode-darktext);
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+.overview-card .card .title i {
+  font-size: 2rem;
+  color: var(--fix-darkblue);
+}
+.overview-card .card .sub-title {
+  font-size: 1.3rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.overview-card {
+  padding: 1rem 0;
+}
+.bar-chart {
+  border: var(--border1);
+  height: 27rem;
 }
 .order-section .box2 {
-  height: 19.6rem;
-  margin-bottom: 2.4rem;
+  /* height: 19.6rem; */
+}
+.box2 p {
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  padding-bottom: 2rem;
+}
+.brdr {
+  border: var(--border1);
+}
+.budget-info {
+  font-weight: 600;
+}
+.budget-info p {
+  font-size: 2.4rem;
+  color: var(--lightmode-darktext);
+  padding-bottom: 0.5rem;
+}
+.budget-info a {
+  font-size: 1rem;
+  color: var(--fix-darkblue);
+  border-bottom: 1px dotted var(--fix-darkblue);
+}
+.budget-info p:nth-child(3) {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: var(--lightmode-darktext);
+  padding-top: 1.5rem;
 }
 .order-section .box3 {
-  height: 21.8rem;
-  margin-right: 1.2rem;
+  margin-top: 2.4rem;
+}
+.box3 p {
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+}
+.box3 h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--lightmode-darktext);
+  padding: 1.1rem 0;
+}
+.income-chart {
+  height: 15rem;
+  border: var(--border1);
 }
 .order-section .box4 {
-  height: 21.8rem;
-  margin-left: 1.2rem;
+  margin-top: 2.4rem;
+}
+.box4 p {
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+}
+.box4 h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--lightmode-darktext);
+  padding: 1.1rem 0;
+}
+.expense-chart {
+  height: 15rem;
+  border: var(--border1);
 }
 .seller-section .box5 {
   height: 45.36rem;
-  margin-right: 2.4rem;
 }
 .seller-section .box6 {
   height: 45.36rem;
-  margin-right: 1.2rem;
 }
 .seller-section .box7 {
   height: 45.36rem;
-  margin-left: 1.2rem;
 }
 .table-section .box {
   padding: 0;

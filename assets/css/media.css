@@ -42,6 +42,20 @@
   main {
     padding: 0;
   }
+  .order-section .row .col-4 {
+    margin-top: 2.4rem;
+  }
+  .order-section .row .col-8 {
+    padding-right: 0;
+  }
+  .order-section .row .col-4 .row .col-12 {
+    padding-left: 0;
+  }
+  .order-section .row .col-4 .row .col-6:nth-child(1) {
+    padding-left: 0;
+    padding-right: 0rem;
+    padding-bottom: 1.2rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -216,8 +230,14 @@
   .table-section {
     padding: 0.8rem;
   }
+  .order-section {
+    padding: 0.8rem;
+  }
   .menu ul li form {
     display: none;
+  }
+  .overview-card .col-3 {
+    padding: 1.2rem;
   }
 }
 
