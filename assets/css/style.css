@@ -1035,6 +1035,27 @@ main section {
 .seller-section .box7 {
   height: 45.36rem;
 }
+.box7 h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  padding: 1.2rem 0;
+}
+.box7 span {
+  font-size: 2.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+}
+.box7 p {
+  font-size: 1.3rem;
+  color: var(--lightmode-darktext);
+  padding-top: 0.5rem;
+}
+.box7 .updown .left img {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+}
 .table-section .box {
   padding: 0;
 }
