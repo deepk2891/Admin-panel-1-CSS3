@@ -19,4 +19,7 @@ $(document).ready(function () {
     $('.right-bar-control').click(function () {
         $('.right-bar').toggleClass('rightbar-margin-r0');
     });
+    $('#DarkShadeButton').click(function () {
+        $('#DarkShade').toggleClass('visible');
+    });
 });

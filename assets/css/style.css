@@ -405,6 +405,29 @@ header {
 }
 /* HEADER ENDS HERE */
 
+/* OVERLAY LAYER STARTS HERE */
+#DarkShade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(90, 90, 90, 0.5);
+  display: none;
+  z-index: 999;
+
+  /* 🚩💧🔥🔥🔥Allow clicks on underlying elements🔥🔥🔥💧🚩 */
+
+  pointer-events: none;
+
+  /* 🚩💧🔥🔥🔥Allow clicks on underlying elements🔥🔥🔥💧🚩 */
+
+}
+#DarkShade.visible {
+  display: block;
+}
+/* OVERLAY LAYER ENDS HERE*/
+
 /* RIGHT BAR STARTS HERE */
 .right-bar {
   position: fixed;
