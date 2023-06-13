@@ -967,11 +967,70 @@ main section {
   height: 15rem;
   border: var(--border1);
 }
+.seller-section .row .col-6 {
+  padding-left: 0;
+}
+.seller-section .row .col-3:nth-child(3) {
+  padding-right: 0;
+}
 .seller-section .box5 {
   height: 45.36rem;
 }
 .seller-section .box6 {
   height: 45.36rem;
+}
+.box6 h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  padding: 1.2rem 0;
+}
+.box6 span {
+  font-size: 2.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 500;
+}
+.box6 small {
+  font-size: 1.2rem;
+  color: var(--fix-green);
+  padding-left: 0.5rem;
+}
+.box6 p {
+  font-size: 1.3rem;
+  color: var(--lightmode-darktext);
+  padding-top: 0.5rem;
+}
+.updown {
+  padding-top: 1rem;
+}
+.updown .data {
+  padding-top: 1.55rem;
+}
+.seller-section .data .left i {
+  font-size: 1.4rem;
+  background-color: #f00073;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.seller-section .data .left p {
+  color: var(--lightmode-lighttext);
+  font-size: 1.4rem;
+  padding-left: 0.8rem;
+}
+.seller-section .data .right i {
+  font-size: 1.2rem;
+  padding-left: 0.8rem;
+}
+.green {
+  color: var(--fix-green);
+}
+.red {
+  color: var(--fix-red);
+}
+.seller-section .data .right p {
+  color: var(--lightmode-darktext);
+  font-size: 1.5rem;
 }
 .seller-section .box7 {
   height: 45.36rem;
