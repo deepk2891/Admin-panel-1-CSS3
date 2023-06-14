@@ -67,6 +67,9 @@
   main section {
     padding: 1.4rem;
   }
+  .box5 .row .col-6:nth-child(1) {
+    padding-right: 1.2rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -319,6 +322,9 @@
   .seller-section .row .col-3:nth-child(3) {
     padding-left: 0;
     padding-bottom: 1.2rem;
+  }
+  .box5 .row .col-6:nth-child(1) {
+    padding-right: 0rem;
   }
 }
 

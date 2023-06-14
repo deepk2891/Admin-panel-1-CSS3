@@ -997,7 +997,76 @@ main section {
   padding-right: 0;
 }
 .seller-section .box5 {
-  height: 45.36rem;
+  /* height: 45.36rem; */
+}
+.pr0 {
+  padding-right: 0;
+}
+.box5 .row .col-6 .box {
+  border: none;
+  margin-top: 1rem;
+  background-color: var(--fix-bgblue);
+}
+.box5 h4 {
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 600;
+}
+.seller-card img {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  outline: 2px solid var(--fix-darkblue);
+  margin: auto;
+}
+.seller-card {
+  padding: 2rem 0;
+  border-radius: 0.5rem;
+  height: 36rem;
+}
+.seller-card p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--lightmode-darktext);
+  padding: 1rem 0 0.3rem 0;
+}
+.seller-card span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--lightmode-darktext);
+}
+.sale p {
+  font-size: 1.4rem;
+  color: var(--lightmode-darktext);
+  font-weight: 400;
+  padding: 1rem 0 0.5rem 0;
+}
+.sale span {
+  font-size: 2rem;
+  color: var(--lightmode-darktext);
+  font-weight: 600;
+}
+.sale small {
+  font-size: 1.2rem;
+}
+.seller-card-chart {
+  margin: 1rem 0;
+  height: 11.5rem;
+  border: var(--border1);
+}
+.sale small i {
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+}
+.seller-card-icon i {
+  font-size: 1.8rem;
+  padding: 1.1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 50%;
+  color: var(--fix-darkblue);
+  background-color: #4f46e51a;
 }
 .seller-section .box6 {
   height: 45.36rem;
