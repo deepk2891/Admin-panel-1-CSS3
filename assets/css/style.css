@@ -349,6 +349,8 @@ header {
   padding: 0 1.5rem;
   background-color: #E9EEF5;
   color: #1e293b;
+  border: none;
+  outline: none;
 }
 .ping {
   position: relative;
@@ -486,7 +488,7 @@ header {
 }
 .bank-card {
   height: 11.2rem;
-  width: 19.2rem;
+  width: 100%;
   border: var(--border1);
   border-radius: 1.5rem;
   color: var(--white);
