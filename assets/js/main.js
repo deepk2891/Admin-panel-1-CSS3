@@ -22,4 +22,7 @@ $(document).ready(function () {
     $('#DarkShadeButton').click(function () {
         $('#DarkShade').toggleClass('visible');
     });
+    $('#DarkModeButton').click(function () {
+        $('html').toggleClass('dark-mode');
+    });
 });

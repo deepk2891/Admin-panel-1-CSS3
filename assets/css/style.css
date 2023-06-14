@@ -26,6 +26,16 @@
 
   --gutter-width: 12px;
 }
+.dark-mode {
+  --fix-bgblue: #313e59;
+  --white: #202b40;
+  --lightmode-darktext: #c2c9d6;
+  --lightmode-medtext: #c2c9d6;
+  --lightmode-lighttext: #a3adc2;
+  --lighmode-ultralighttext: #a3adc2;
+  --border1: 1px solid #26334d;
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -266,7 +276,7 @@ aside .aside-heading i {
   display: none;
 }
 .left-slide-bar ul li {
-  color: var(--light-text);
+  color: var(--lightmode-darktext);
   font-weight: 500;
   font-size: 1.3rem;
   padding: 1.1rem 0;
@@ -312,9 +322,7 @@ header {
   transition: all 0.1s linear;
   border-bottom: var(--border1);
   padding: 0 2.5rem;
-  background: rgba(234, 247, 253, 0.5);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background-color: var(--white);
 }
 .toggle {
   margin-top: -0.7rem;
@@ -347,8 +355,8 @@ header {
   font-size: 1.5rem;
   border: none;
   padding: 0 1.5rem;
-  background-color: #E9EEF5;
-  color: #1e293b;
+  background-color: var(--fix-bgblue);
+  color: var(--lightmode-darktext);
   border: none;
   outline: none;
 }
@@ -465,6 +473,7 @@ header {
 }
 .right-bar .calender {
   padding: 0rem 1.2rem 1.2rem 1.2rem;
+  color: var(--lightmode-darktext);
 }
 .right-bar .calender span {
   font-size: 1.3rem;
@@ -480,6 +489,7 @@ header {
   font-size: 3rem;
 }
 .b-heading {
+  color: var(--lightmode-darktext);
   padding: 0.75rem;
   letter-spacing: .025em;
 }
@@ -548,6 +558,7 @@ header {
   font-size: 1.2rem;
 }
 .app-heading {
+  color: var(--lightmode-darktext);
   padding: 1.2rem 0 0.75rem 0;
   letter-spacing: .025em;
 }
@@ -563,6 +574,7 @@ header {
   text-align: center;
 }
 .pinned-apps ul li p {
+  color: var(--lightmode-darktext);
   padding-top: 0.4rem;
   font-size: 1.3rem;
 }
@@ -594,7 +606,7 @@ header {
   padding: 0 0.5rem 0 0;
 }
 .working-hours .hour {
-  background-color: #e9eef5;
+  background-color: var(--fix-bgblue);
   padding: 1rem;
   border-radius: 0.5rem;
 }
@@ -650,7 +662,7 @@ header {
   margin: -0.8rem 0 1.2rem 0;
 }
 .stock-info {
-  background-color: #e9eef5;
+  background-color: var(--fix-bgblue);
   padding: 1rem;
   border-radius: 0.5rem;
   margin-right: 0.5rem;
@@ -698,7 +710,7 @@ header {
 }
 .latest-news .news {
   background-color: var(--fix-bgblue);
-  border-bottom: 1rem solid white;
+  border-bottom: 1rem solid var(--white);
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -800,7 +812,7 @@ label {
 .plan {
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
-  background-color: #e9eef5;
+  background-color: var(--fix-bgblue);
   margin: 0.5rem 0;
 }
 .plan p {
@@ -1168,7 +1180,7 @@ th, td {
 }
 .orders-tbl thead th {
   color: var(--lightmode-darktext);
-  background-color: #e2e8f0;
+  background-color: #4438ff1a;
   padding: 1.4rem 2.0rem;
   font-size: 1.4rem;
 }
