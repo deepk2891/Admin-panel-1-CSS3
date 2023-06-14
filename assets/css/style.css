@@ -85,7 +85,6 @@ section {
   height: 100%;
   border-right: var(--border1);
   background-color: var(--white);
-  transition: var(--transition02);
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: var(--lightmode-darktext) var(--white);
@@ -240,7 +239,6 @@ aside {
   width: 23rem;
   border: var(--border1);
   background-color: var(--white);
-  transition: all 0.1s linear;
   overflow-y: scroll;
 }
 aside:hover aside::-webkit-scrollbar {
@@ -317,9 +315,9 @@ aside .aside-heading i {
 header {
   position: sticky;
   top: 0;
+  z-index: 9;
   margin-left: 31rem;
   height: 6rem;
-  transition: all 0.1s linear;
   border-bottom: var(--border1);
   padding: 0 2.5rem;
   background-color: var(--white);
@@ -872,9 +870,7 @@ main section {
 .p0 {
   padding: 0;
 }
-.order-section .box1 {
-  /* height: 43.8rem; */
-}
+/* .order-section .box1 */
 .order-section .row .col-8 {
   padding-left: 0;
 }
@@ -936,11 +932,8 @@ main section {
 }
 .bar-chart {
   border: var(--border1);
-  height: 27rem;
 }
-.order-section .box2 {
-  /* height: 19.6rem; */
-}
+/* .order-section .box2 */
 .box2 p {
   font-size: 1.4rem;
   color: var(--lightmode-darktext);
@@ -983,7 +976,6 @@ main section {
   padding: 1.1rem 0;
 }
 .income-chart {
-  height: 15rem;
   border: var(--border1);
 }
 .order-section .box4 {
@@ -1001,7 +993,6 @@ main section {
   padding: 1.1rem 0;
 }
 .expense-chart {
-  height: 15rem;
   border: var(--border1);
 }
 .seller-section .row .col-6 {
@@ -1010,9 +1001,7 @@ main section {
 .seller-section .row .col-3:nth-child(3) {
   padding-right: 0;
 }
-.seller-section .box5 {
-  /* height: 45.36rem; */
-}
+/* .seller-section .box5 */
 .pr0 {
   padding-right: 0;
 }
@@ -1037,7 +1026,6 @@ main section {
 .seller-card {
   padding: 2rem 0;
   border-radius: 0.5rem;
-  height: 36rem;
 }
 .seller-card p {
   font-size: 1.6rem;
@@ -1066,7 +1054,6 @@ main section {
 }
 .seller-card-chart {
   margin: 1rem 0;
-  height: 11.5rem;
   border: var(--border1);
 }
 .sale small i {
@@ -1082,9 +1069,7 @@ main section {
   color: var(--fix-darkblue);
   background-color: #4f46e51a;
 }
-.seller-section .box6 {
-  height: 45.36rem;
-}
+/* .seller-section .box6 */
 .box6 h2 {
   font-weight: 600;
   font-size: 1.4rem;
@@ -1138,9 +1123,7 @@ main section {
   color: var(--lightmode-darktext);
   font-size: 1.5rem;
 }
-.seller-section .box7 {
-  height: 45.36rem;
-}
+/* .seller-section .box7 */
 .box7 h2 {
   font-weight: 600;
   font-size: 1.4rem;
@@ -1166,7 +1149,7 @@ main section {
   padding: 0;
 }
 .table-box {
-  overflow-x: auto;
+  overflow-x: hidden;
   min-width: 100%;
 }
 .orders-tbl {
