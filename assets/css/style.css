@@ -240,6 +240,7 @@ aside {
   border: var(--border1);
   background-color: var(--white);
   overflow-y: scroll;
+  transition: var(--transition03);
 }
 aside:hover aside::-webkit-scrollbar {
   visibility: visible;
@@ -321,6 +322,7 @@ header {
   border-bottom: var(--border1);
   padding: 0 2.5rem;
   background-color: var(--white);
+  transition: var(--transition03);
 }
 .toggle {
   margin-top: -0.7rem;
@@ -450,6 +452,7 @@ header {
   border: var(--border1);
   margin-right: -31rem;
   overflow-y: scroll;
+  transition: var(--transition03);
 }
 .right-bar:hover aside::-webkit-scrollbar {
   visibility: visible;
@@ -857,6 +860,7 @@ main {
   margin-left: 31rem;
   padding: 2rem;
   background-color: var(--fix-bgblue);
+  transition: var(--transition03);
 }
 main section {
   padding: 2.4rem;
