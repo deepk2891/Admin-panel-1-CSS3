@@ -326,6 +326,15 @@
   .box5 .row .col-6:nth-child(1) {
     padding-right: 0rem;
   }
+  .join span {
+    display: none;
+  }
+  .join a {
+    padding: 0.6rem 0.8rem;
+  }
+  #FullScreenButton {
+    padding: 0.6rem 0.8rem;
+  }
 }
 
 @media (max-width: 320px) {
