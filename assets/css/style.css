@@ -1207,8 +1207,24 @@ main section {
   padding: 0;
 }
 .table-box {
-  overflow-x: hidden;
   min-width: 100%;
+  overflow-x: scroll;
+}
+.table-box {
+  scrollbar-width: auto;
+  scrollbar-color: #c2c2c2 #f1f5f9;
+}
+.table-box::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+}
+.table-box::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.table-box::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;
+  border-radius: 4px;
+  border: 4px none #ffffff;
 }
 .orders-tbl {
   width: 100%;
